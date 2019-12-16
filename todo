@@ -1,12 +1,11 @@
-[ ] User Validation
+[X] User Validation
 [ ] Adding Images
 [ ] Ajax
   [ ] Search
   [ ] Ajax additional
-[ ] Login & Register
-  [ ] Functionality
+[X] Login & Register
+  [X] Functionality
   [ ] Landing/Welcome View
-    [ ] Validation
 [ ] Posts Page
   [ ] Contains name of user posting and Image
   [ ] Image Posts

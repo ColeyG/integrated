@@ -1,0 +1,24 @@
+.login-signup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.login-signup-form {
+  margin-top: 20px;
+  width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  input {
+    margin: 10px 0;
+  }
+  button {
+    @include button-normalize();
+    padding: 5px;
+    margin: 5px 0;
+    background-color: $indigo;
+    @include lato($color: white);
+  }
+}

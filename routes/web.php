@@ -8,7 +8,7 @@ Route::get('/signup', 'MediaController@signup')->name('signup');
 
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
-Auth::routes();
+Auth::routes(['reset' => false, 'remember' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
