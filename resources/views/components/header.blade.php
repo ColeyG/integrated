@@ -1,5 +1,8 @@
 <header class="primary-header">
   <a href="/"><h1 class="title">Spitter</h1></a>
+  <div class="search">
+    <input type="text" placeholder="Search Posts">
+  </div>
   <ul>
     <li>
       <p>

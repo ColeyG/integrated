@@ -28,3 +28,12 @@
   margin: 30px;
   @include lato($color: $indigo, $size: 36pt);
 }
+.search {
+  flex-grow: 1;
+  input {
+    border: none;
+    width: 100%;
+    padding: 3px;
+    background-color: $blue;
+  }
+}

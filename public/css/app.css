@@ -369,3 +369,15 @@ label {
   font-family: "Lato", sans-serif;
 }
 
+.search {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+.search input {
+  border: none;
+  width: 100%;
+  padding: 3px;
+  background-color: #7dcfb6;
+}
+
