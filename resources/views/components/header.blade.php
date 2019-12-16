@@ -1,7 +1,13 @@
 <header class="primary-header">
   <a href="/"><h1 class="title">Spitter</h1></a>
   <ul>
-    <li><p>{{{ isset(Auth::user()->name) ? Auth::user()->name : Auth::user()->email }}}</p></li>
+    <li>
+      <p>
+        @if (isset(Auth::user()->name))
+          <?= Auth::user()->name ?>
+        @endif
+      </p>
+    </li>
     <li><a href="#">Help</a></li>
     @if (Auth::check())
       <li><a href="{{ url('/logout') }}">Log Out</a></li>

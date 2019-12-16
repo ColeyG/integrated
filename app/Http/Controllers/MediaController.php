@@ -17,4 +17,8 @@ class MediaController extends Controller
   public function signup () {
     return view ('signup');
   }
+
+  public function create () {
+    return view ('create');
+  }
 }

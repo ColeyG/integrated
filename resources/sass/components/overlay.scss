@@ -1,0 +1,35 @@
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: -100vh;
+  z-index: 1;
+  pointer-events: none;
+  > * {
+    pointer-events: all;
+  }
+  .create-post {
+    position: fixed;
+    bottom: 150px;
+    right: 10%;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: $teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 60%;
+        height: 60%;
+      }
+    }
+  }
+}

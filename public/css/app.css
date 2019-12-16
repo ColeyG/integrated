@@ -212,6 +212,52 @@ label {
   border: 1px solid #254441;
 }
 
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: -100vh;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.overlay > * {
+  pointer-events: all;
+}
+
+.overlay .create-post {
+  position: fixed;
+  bottom: 150px;
+  right: 10%;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #4dc0b5;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.overlay .create-post a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.overlay .create-post a img {
+  width: 60%;
+  height: 60%;
+}
+
 .spits-wrapper {
   width: 100%;
   display: -webkit-box;
