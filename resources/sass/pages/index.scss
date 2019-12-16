@@ -1,0 +1,30 @@
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  border-bottom: 2px solid $indigo;
+  .title {
+    @include lato($color: $green, $size: 32pt);
+    margin: 0 20px;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    li {
+      border-radius: 5px;
+      a {
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        display: block;
+      }
+    }
+    .sign-up {
+      border: 1px solid $indigo;
+    }
+  }
+}

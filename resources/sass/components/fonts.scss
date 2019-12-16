@@ -1,0 +1,14 @@
+@mixin lato($color: $black, $size: 16pt, $weight: normal) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+p,
+a,
+input {
+  @include lato();
+}

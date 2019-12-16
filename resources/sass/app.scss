@@ -1,1 +1,9 @@
-//
+@import "./reset.css";
+@import "./cold-lib.scss";
+
+// Components
+@import "./components/colors.scss";
+@import "./components/fonts.scss";
+
+// Pages
+@import "./pages/index.scss";
