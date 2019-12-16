@@ -12,9 +12,18 @@
     .spit {
       padding: 20px;
       border-bottom: 2px solid $indigo;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
       h2 {
         margin-bottom: 20px;
         @include lato($color: $indigo);
+      }
+      img {
+        margin-top: 20px;
+        align-self: center;
+        max-width: 80%;
       }
     }
   }

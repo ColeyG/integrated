@@ -11,6 +11,11 @@
           <div class="spit">
             <h2>{{ $post->user }}</h2>
             <p>{{ $post->content }}</p>
+            <?php
+              if($post->image!=='') {
+                echo "<img src='images/".$post->image."' alt>";
+              }
+            ?>
           </div>
         @endforeach
       @endif

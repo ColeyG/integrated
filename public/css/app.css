@@ -281,6 +281,15 @@ label {
 .spits-wrapper .spits .spit {
   padding: 20px;
   border-bottom: 2px solid #254441;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .spits-wrapper .spits .spit h2 {
@@ -289,6 +298,12 @@ label {
   font-size: 16pt;
   font-weight: normal;
   font-family: "Lato", sans-serif;
+}
+
+.spits-wrapper .spits .spit img {
+  margin-top: 20px;
+  align-self: center;
+  max-width: 80%;
 }
 
 .login-signup {
