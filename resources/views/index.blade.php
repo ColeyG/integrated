@@ -4,6 +4,7 @@
   @endcomponent
   @component('components.header')
   @endcomponent
+  <h2 class="sr-only">Spits</h2>
   <section class="spits-wrapper">
     <div class="spits">
       @if(App\Post::all()->isNotEmpty())
