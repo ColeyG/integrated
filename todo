@@ -1,8 +1,8 @@
 [X] User Validation
 [X] Adding Images
-[ ] Ajax
-  [ ] Search
-  [ ] Ajax additional
+[X] Ajax
+  [X] Search
+  [X] Ajax additional
 [X] Login & Register
   [X] Functionality
   [X] Landing/Welcome View
