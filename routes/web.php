@@ -8,6 +8,8 @@ Route::get('/signup', 'MediaController@signup')->name('signup');
 
 Route::get('/create', 'MediaController@create')->name('create');
 
+Route::post('/postaction', 'MediaController@postaction')->name('postaction');
+
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 Auth::routes(['reset' => false, 'remember' => false]);
