@@ -49455,11 +49455,34 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 var searchButton = document.querySelector('.search-button');
+var spits = document.querySelector('.spits');
 
 function search() {
   axios.post("/api/search?q=".concat(document.querySelector('.search-in').value)).then(function (_ref) {
     var data = _ref.data;
-    console.log(data);
+
+    while (spits.firstChild) {
+      spits.removeChild(spits.firstChild);
+    }
+
+    data.data.forEach(function (post) {
+      var newSpit = document.createElement('div');
+      var spitTitle = document.createElement('h2');
+      var spitText = document.createElement('p');
+      newSpit.className = 'spit';
+      spitTitle.appendChild(document.createTextNode(post.user));
+      spitText.appendChild(document.createTextNode(post.content));
+      newSpit.appendChild(spitTitle);
+      newSpit.appendChild(spitText);
+
+      if (post.image !== '') {
+        var spitImage = document.createElement('img');
+        spitImage.src = "images/".concat(post.image);
+        newSpit.appendChild(spitImage);
+      }
+
+      spits.append(newSpit);
+    });
   });
 }
 
