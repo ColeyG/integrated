@@ -30,10 +30,17 @@
 }
 .search {
   flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
   input {
     border: none;
     width: 100%;
     padding: 3px;
     background-color: $blue;
+  }
+  a {
+    margin: 0 10px;
   }
 }
