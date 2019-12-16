@@ -9,8 +9,8 @@
 [X] Posts Page
   [ ] Contains name of user posting and Image
   [X] Image Posts
-    [ ] Check file size
-    [ ] Validation
+    [X] Check file size
+    [X] Validation
 [ ] HTML Validation
 [ ] HTML Doc Outline
 [ ] CSS Validation
