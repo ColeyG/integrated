@@ -14,6 +14,10 @@
   input {
     margin: 10px 0;
   }
+  textarea {
+    width: 100%;
+    resize: none;
+  }
   button {
     @include button-normalize();
     padding: 5px;

@@ -322,6 +322,11 @@ label {
   margin: 10px 0;
 }
 
+.login-signup-form textarea {
+  width: 100%;
+  resize: none;
+}
+
 .login-signup-form button {
   border: none;
   background-color: rgba(0, 0, 0, 0);
