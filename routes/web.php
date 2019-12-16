@@ -4,6 +4,8 @@ Route::get('/', 'MediaController@index')->name('home');
 
 Route::get('/login', 'MediaController@login')->name('login');
 
+Route::get('/help', 'MediaController@help')->name('help');
+
 Route::get('/signup', 'MediaController@signup')->name('signup');
 
 Route::get('/create', 'MediaController@create')->name('create');

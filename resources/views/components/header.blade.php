@@ -12,7 +12,7 @@
         @endif
       </p>
     </li>
-    <li><a href="#">Help</a></li>
+    <li><a href="/help">Help</a></li>
     @if (Auth::check())
       <li><a href="{{ url('/logout') }}">Log Out</a></li>
     @else
