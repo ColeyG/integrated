@@ -10,5 +10,13 @@
     height: 10px;
     border-left: 2px solid $indigo;
     border-right: 2px solid $indigo;
+    .spit {
+      padding: 20px;
+      border-bottom: 2px solid $indigo;
+      h2 {
+        margin-bottom: 20px;
+        @include lato($color: $indigo);
+      }
+    }
   }
 }

@@ -279,6 +279,19 @@ label {
   border-right: 2px solid #254441;
 }
 
+.spits-wrapper .spits .spit {
+  padding: 20px;
+  border-bottom: 2px solid #254441;
+}
+
+.spits-wrapper .spits .spit h2 {
+  margin-bottom: 20px;
+  color: #254441;
+  font-size: 16pt;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+}
+
 .login-signup {
   display: -webkit-box;
   display: flex;
