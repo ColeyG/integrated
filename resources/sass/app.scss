@@ -1,9 +1,19 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "~bootstrap/scss/bootstrap";
+
 @import "./reset.css";
 @import "./cold-lib.scss";
 
 // Components
 @import "./components/colors.scss";
 @import "./components/fonts.scss";
+@import "./components/header.scss";
 
 // Pages
 @import "./pages/index.scss";

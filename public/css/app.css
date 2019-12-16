@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+@import url(https://fonts.googleapis.com/css?family=Nunito);/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -192,7 +192,32 @@ input {
   display: block;
 }
 
+.primary-header ul li a:hover {
+  text-decoration: underline;
+}
+
 .primary-header ul .sign-up {
   border: 1px solid #254441;
+}
+
+.spits-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.spits-wrapper .spits {
+  width: 800px;
+  min-height: 100vh;
+  height: 10px;
+  border-left: 2px solid #254441;
+  border-right: 2px solid #254441;
 }
 
