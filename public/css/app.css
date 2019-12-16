@@ -356,3 +356,8 @@ label {
   font-family: "Lato", sans-serif;
 }
 
+.error p {
+  color: #f96900;
+  margin-bottom: 5px;
+}
+

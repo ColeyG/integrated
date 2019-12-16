@@ -25,6 +25,9 @@ class MediaController extends Controller
 
   public function postaction (Request $request) {
     $newPost = new \App\Post;
+    $validatedData = $request->validate([
+      'image' => 'max:20000|mimes:jpg,jpeg,png,gif,svg'
+    ]);
 
     $newPost->user = Auth::user()['name'];
     $newPost->content = $request->content;

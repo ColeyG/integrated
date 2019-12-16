@@ -19,3 +19,8 @@
 // Pages
 @import "./pages/index.scss";
 @import "./pages/login-signup.scss";
+
+.error p {
+  color: $orange;
+  margin-bottom: 5px;
+}

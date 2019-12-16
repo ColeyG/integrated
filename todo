@@ -8,7 +8,7 @@
   [ ] Landing/Welcome View
 [X] Posts Page
   [ ] Contains name of user posting and Image
-  [ ] Image Posts
+  [X] Image Posts
     [ ] Check file size
     [ ] Validation
 [ ] HTML Validation
