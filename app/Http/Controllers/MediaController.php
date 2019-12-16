@@ -23,6 +23,10 @@ class MediaController extends Controller
     return view ('create');
   }
 
+  public function welcome () {
+    return view ('welcome');
+  }
+
   public function postaction (Request $request) {
     $newPost = new \App\Post;
     $validatedData = $request->validate([

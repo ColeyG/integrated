@@ -27,7 +27,8 @@
       </span>
       @enderror
       <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
-      <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">                    
+      <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">        
+      <input name="image" id="image" type="file">                   
       <button type="submit" class="btn btn-primary">
         {{ __('Register') }}
       </button>

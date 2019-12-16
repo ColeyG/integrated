@@ -7,7 +7,7 @@
   [X] Functionality
   [ ] Landing/Welcome View
 [X] Posts Page
-  [ ] Contains name of user posting and Image
+  [X] Contains name of user posting and Image
   [X] Image Posts
     [X] Check file size
     [X] Validation

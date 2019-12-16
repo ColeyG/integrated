@@ -24,3 +24,7 @@
   color: $orange;
   margin-bottom: 5px;
 }
+.welcome-message {
+  margin: 30px;
+  @include lato($color: $indigo, $size: 36pt);
+}

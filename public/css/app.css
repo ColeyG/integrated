@@ -361,3 +361,11 @@ label {
   margin-bottom: 5px;
 }
 
+.welcome-message {
+  margin: 30px;
+  color: #254441;
+  font-size: 36pt;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+}
+
