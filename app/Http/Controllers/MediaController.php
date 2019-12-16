@@ -29,6 +29,14 @@ class MediaController extends Controller
     $newPost->user = Auth::user()['name'];
     $newPost->content = $request->content;
 
+    if ($request->hasFile('image')) {
+      $name = time().'-'.request()->image->getClientOriginalName().'.'.request()->image->getClientOriginalExtension();
+      request()->image->move(public_path('images'), $name); 
+      $newPost->image = $name;
+    } else {
+      $newPost->image = '';
+    }
+
     $newPost->save();
 
     return redirect ('/');

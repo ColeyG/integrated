@@ -6,7 +6,7 @@
 [X] Login & Register
   [X] Functionality
   [ ] Landing/Welcome View
-[ ] Posts Page
+[X] Posts Page
   [ ] Contains name of user posting and Image
   [ ] Image Posts
     [ ] Check file size
